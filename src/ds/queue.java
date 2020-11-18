@@ -1,7 +1,6 @@
 package ds;
-
 import java.util.*;
-public class queue {
+public  class queue {
 	 int front,rear,size=1000,arr[];
 	queue(int k)
 	{
@@ -38,13 +37,8 @@ public class queue {
 		{
 			int y=arr[front++];
 			System.out.println("Dequeued "+y);
-		}
-		
-		
+		} 	
 	}
-			
-	
-	
 	public static void main(String args[])
 	{
 	Scanner sc=new Scanner(System.in);
@@ -54,8 +48,8 @@ public class queue {
 	{
 		int k=sc.nextInt();
 		q.Enqueue(k);
-	}
+	}  
 	q.Dequeue();q.Dequeue();q.Dequeue();q.Dequeue();q.Dequeue();q.Dequeue();q.Dequeue();q.Dequeue();
-            	
+         sc.close();   	
    	}
 	}

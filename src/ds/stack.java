@@ -1,6 +1,4 @@
 package ds;
-import java.util.*;
-
 public class stack 
 {
 	int MAX=5;
@@ -11,11 +9,11 @@ public class stack
 		if(top>=MAX)
 		{
 			System.out.println("stack is full");
-		}
+		} 
 		else {
 			stack[top++]=ele;
 		}
-	}
+	} 
 	public void show()
 	{
 		for(int i=0;i<top;i++)
@@ -65,8 +63,5 @@ public class stack
 		stk.pop();
 		stk.show();
 		System.out.println("size of stack "+stk.size());
-		
-		
 	}
-
 }
