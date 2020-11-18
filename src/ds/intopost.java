@@ -80,7 +80,8 @@ public class intopost {
 	    { 
 	    	Scanner sc=new Scanner(System.in);
 			String exp=sc.next();  
-	        System.out.println(infixToPostfix(exp)); 
+			System.out.println(infixToPostfix(exp)); 
+			sc.close();
 	    } 
 	} 
 

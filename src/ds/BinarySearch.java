@@ -9,7 +9,7 @@ public class BinarySearch {
 	      Scanner input = new Scanner(System.in);
 	      System.out.println("Enter number of elements:");
 	      num = input.nextInt(); 
-
+			input.close();
 	      
 	      array = new int[num];
 

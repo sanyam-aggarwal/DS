@@ -16,6 +16,7 @@ public class LinearSearch {
 			if(a[i]==x)
 				System.out.println(i);
 		}
+		sc.close();
 	}
 
 }

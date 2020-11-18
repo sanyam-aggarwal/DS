@@ -30,7 +30,8 @@ public class pretopost {
 	{ 
 		Scanner sc=new Scanner(System.in);
 	    String a=sc.nextLine();
-	    System.out.println("Postfix : " + preToPost(a)); 
+		System.out.println("Postfix : " + preToPost(a)); 
+		sc.close();
 	} 
 	} 
 

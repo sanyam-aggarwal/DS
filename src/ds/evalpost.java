@@ -47,7 +47,7 @@ public class evalpost {
 		Scanner sc=new Scanner(System.in);
 		String exp=sc.next(); 
 		System.out.println("postfix evaluation: "+evaluatePostfix(exp)); 
-
+sc.close();
 
 
 	}
